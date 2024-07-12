@@ -1,5 +1,5 @@
 # ninja log v5
-13	813	7420815986665774	CMakeFiles/PostgresTask.dir/main.cpp.obj	9d9ef9d070b2cf91
+10	846	7420817141607241	CMakeFiles/PostgresTask.dir/main.cpp.obj	9d9ef9d070b2cf91
 2364	2984	7420806225928193	libpqxx-build/src/CMakeFiles/pqxx.dir/wait.cxx.obj	2ab00970846efc07
 23	1238	7420806208464257	libpqxx-build/src/CMakeFiles/pqxx.dir/cursor.cxx.obj	95ad7983b6390a69
 42	1271	7420806208258729	libpqxx-build/src/CMakeFiles/pqxx.dir/notification.cxx.obj	b0c1eb2c0954bd7c
@@ -28,6 +28,8 @@
 1099	2610	7420806222195374	libpqxx-build/src/CMakeFiles/pqxx.dir/robusttransaction.cxx.obj	b09104d8123b434c
 1477	2702	7420806223115500	libpqxx-build/src/CMakeFiles/pqxx.dir/transaction_base.cxx.obj	52ecb5c2e7e6695b
 2984	3079	7420806226719034	libpqxx-build/src/pqxx.lib	a24eb6f4ad941b5
-814	952	7420815987730874	PostgresTask.exe	b54c63dd5f38bf93
-10	846	7420817141607241	CMakeFiles/PostgresTask.dir/main.cpp.obj	9d9ef9d070b2cf91
 847	980	7420817142652367	PostgresTask.exe	b54c63dd5f38bf93
+13	851	7424742611492591	CMakeFiles/PostgresTask.dir/main.cpp.obj	9d9ef9d070b2cf91
+852	1135	7424742613952574	PostgresTask.exe	b54c63dd5f38bf93
+13	819	7424743329787490	CMakeFiles/PostgresTask.dir/main.cpp.obj	9d9ef9d070b2cf91
+820	961	7424743330917494	PostgresTask.exe	b54c63dd5f38bf93

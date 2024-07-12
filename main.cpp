@@ -69,6 +69,7 @@ private:
 };
 
 int main(){
+    try {
 
 	std::string connectionString = 
 		"host=127.0.0.1 "
@@ -111,6 +112,20 @@ int main(){
     if (!clients.empty()) {
         int client_id = std::get<0>(clients[0]);
         manager.deleteClient(client_id);
+    }
+
+    }  catch (const pqxx::sql_error& e) {
+        std::cerr << "Ошибка SQL: " << e.what() << std::endl;
+        std::cerr << "Был запрос: " << e.query() << std::endl;
+        return 1;
+    }
+    catch (const pqxx::broken_connection& e) {
+        std::cerr << "Ошибка соединения: " << e.what() << std::endl;
+        return 1;
+    }
+    catch (const std::exception& e) {
+        std::cerr << "Ошибка: " << e.what() << std::endl;
+        return 1;
     }
 
     return 0;
